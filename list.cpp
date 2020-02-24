@@ -24,16 +24,6 @@ void list::insert(const char *phrase) //adds c strings to the list
   int length = strlen(phrase); //know the size of a row
   int position = 0;
   
-  //how do we detirmine whether a row is empty
-  while(data[position] != NULL) //we're filling from top to bottom  
-  {
-    position++;
-  }
-
-  for(int idx = 0; idx < (length - 1); idx++)
-  {
-    // *(list::data[idx]) = *phrase;
-  }
 }
 
 std::ostream & operator << (std::ostream &ugh, list &list_class)
